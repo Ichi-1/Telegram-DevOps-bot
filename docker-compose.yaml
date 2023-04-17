@@ -1,0 +1,18 @@
+version: "3.5"
+
+networks:
+  default:
+    external:
+      name: traefik
+  
+services:
+  app:
+    build: .
+    env_file: .env
+    command: python main.py
+    container_name: ${DEPLOY_PATH}_app
+    labels:
+      - "traefik.enable=true"
+      - "traefik.subdomain=${DEPLOY_PATH}"
+      - "traefik.http.services.${DEPLOY_PATH}.loadbalancer.server.port=8086"
+      - "traefik.http.routers.${DEPLOY_PATH}.tls.certresolver=letsEncrypt"

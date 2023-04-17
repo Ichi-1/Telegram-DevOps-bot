@@ -1,0 +1,57 @@
+{
+    "receiver":"DevOps Bot",
+    "status":"firing",
+    "alerts":[
+       {
+          "status":"firing",
+          "labels":{
+             "alertname":"Дисковое пространство",
+             "device":"/dev/vda1",
+             "fstype":"ext4",
+             "grafana_folder":"Alerting",
+             "instance":"node-exporter:9100",
+             "job":"hardware",
+             "mountpoint":"/"
+          },
+          "annotations":{
+             "summary":"💾 👩\u200d🚒 Занято больше 87.55 % дискового пространства"
+          },
+          "startsAt":"2023-04-14T08:04:00Z",
+          "endsAt":"0001-01-01T00:00:00Z",
+          "generatorURL":"http://monitoring-system.v2.unwind-tech.ru/alerting/grafana/DsYhMmEVz/view",
+          "fingerprint":"763ea5c6355cd950",
+          "silenceURL":"http://monitoring-system.v2.unwind-tech.ru/alerting/silence/new?alertmanager=grafana&matcher=alertname%3D%D0%94%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE&matcher=device%3D%2Fdev%2Fvda1&matcher=fstype%3Dext4&matcher=grafana_folder%3DAlerting&matcher=instance%3Dnode-exporter%3A9100&matcher=job%3Dhardware&matcher=mountpoint%3D%2F",
+          "dashboardURL":"",
+          "panelURL":"",
+          "values":{
+             "B":87.54527656722897,
+             "C":1
+          },
+          "valueString":"[ var='C' labels={device=/dev/vda1, fstype=ext4, instance=node-exporter:9100, job=hardware, mountpoint=/} value=1 ], [ var='B' labels={device=/dev/vda1, fstype=ext4, instance=node-exporter:9100, job=hardware, mountpoint=/} value=87.54527656722897 ]"
+       }
+    ],
+    "groupLabels":{
+       "alertname":"Дисковое пространство",
+       "grafana_folder":"Alerting"
+    },
+    "commonLabels":{
+       "alertname":"Дисковое пространство",
+       "device":"/dev/vda1",
+       "fstype":"ext4",
+       "grafana_folder":"Alerting",
+       "instance":"node-exporter:9100",
+       "job":"hardware",
+       "mountpoint":"/"
+    },
+    "commonAnnotations":{
+       "summary":"💾 👩\u200d🚒 Занято больше 87.55 % дискового пространства"
+    },
+    "externalURL":"http://monitoring-system.v2.unwind-tech.ru/",
+    "version":"1",
+    "groupKey":"{}/{}:{alertname=\"Дисковое пространство\", grafana_folder=\"Alerting\"}",
+    "truncatedAlerts":0,
+    "orgId":2,
+    "title":"[FIRING:1] Дисковое пространство Alerting (/dev/vda1 ext4 node-exporter:9100 hardware /)",
+    "state":"alerting",
+    "message":"**Firing**\n\nValue: B=87.54527656722897, C=1\nLabels:\n - alertname = Дисковое пространство\n - device = /dev/vda1\n - fstype = ext4\n - grafana_folder = Alerting\n - instance = node-exporter:9100\n - job = hardware\n - mountpoint = /\nAnnotations:\n - summary = 💾 👩\u200d🚒 Занято больше 87.55 % дискового пространства\nSource: http://monitoring-system.v2.unwind-tech.ru/alerting/grafana/DsYhMmEVz/view\nSilence: http://monitoring-system.v2.unwind-tech.ru/alerting/silence/new?alertmanager=grafana&matcher=alertname%3D%D0%94%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE&matcher=device%3D%2Fdev%2Fvda1&matcher=fstype%3Dext4&matcher=grafana_folder%3DAlerting&matcher=instance%3Dnode-exporter%3A9100&matcher=job%3Dhardware&matcher=mountpoint%3D%2F\n"
+ }

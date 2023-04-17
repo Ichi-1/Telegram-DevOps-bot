@@ -1,0 +1,41 @@
+{
+    "object_kind": "deployment",
+    "status": "success",
+    "status_changed_at": "2023-01-04 20:28:54 +0000",
+    "deployment_id": 403697199,
+    "deployable_id": 3555644438,
+    "deployable_url": "https://gitlab.com/kanalservis/task-trigger-hrm/-/jobs/3555644438",
+    "environment": "testing/dev",
+    "environment_slug": "testing-dev-pfy7ro",
+    "environment_external_url": "https://task-trigger-hrm-dev.test.unwind-tech.ru",
+    "project": {
+      "id": 42184114,
+      "name": "Виджет amoCRM - Постановка задач для HRM в Bitrix24 V2",
+      "description": null,
+      "web_url": "https://gitlab.com/kanalservis/task-trigger-hrm",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:kanalservis/task-trigger-hrm.git",
+      "git_http_url": "https://gitlab.com/kanalservis/task-trigger-hrm.git",
+      "namespace": "Unwind Digital",
+      "visibility_level": 0,
+      "path_with_namespace": "kanalservis/task-trigger-hrm",
+      "default_branch": "main",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/kanalservis/task-trigger-hrm",
+      "url": "git@gitlab.com:kanalservis/task-trigger-hrm.git",
+      "ssh_url": "git@gitlab.com:kanalservis/task-trigger-hrm.git",
+      "http_url": "https://gitlab.com/kanalservis/task-trigger-hrm.git"
+    },
+    "short_sha": "5475c79d",
+    "user": {
+      "id": 12607046,
+      "name": "Aleksandr Chumakov",
+      "username": "al.chumakov",
+      "avatar_url": "https://secure.gravatar.com/avatar/6d72f76917cb361884d2e3ef54fdb5f0?s=80&d=identicon",
+      "email": "[REDACTED]"
+    },
+    "user_url": "https://gitlab.com/al.chumakov",
+    "commit_url": "https://gitlab.com/kanalservis/task-trigger-hrm/-/commit/5475c79daa0b7ed7e2a3f61cb9866a97aae56730",
+    "commit_title": "fix endpoint path",
+    "ref": "dev"
+  }

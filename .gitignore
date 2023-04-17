@@ -1,0 +1,11 @@
+venv
+.env
+__pycache__
+portainer_jwt.json
+
+backup
+.vscode
+local.db
+.pytest_cache
+
+.gitlab-ci.yml

@@ -1,0 +1,9 @@
+requests
+fastapi
+fastapi-utils
+uvicorn
+pyTelegramBotAPI
+python-dotenv
+loguru
+pytz
+pickledb
