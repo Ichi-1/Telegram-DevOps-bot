@@ -43,4 +43,4 @@ Settings -> Webhooks
 Alerting -> Contact Points -> New Contact Point
 
 ```
-Выбираем тип Contact Point WebHook и вставляем ссылку на наш бэкенед с URI `/webhooks/alerts/`
+Выбираем тип Contact Point WebHook и вставляем ссылку на наш бэкенд с эндпоинтом `/webhooks/alerts/`
